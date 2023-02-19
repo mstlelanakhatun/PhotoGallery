@@ -1,0 +1,194 @@
+body{
+	margin:0px;
+	color:white;
+	background-image: url('image/wallpaper/pic3.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+
+.login{
+	background-color: rgba(0,0,0,0.5);
+	width:100%;
+	height:100px;
+	margin-top:30px;
+}
+
+.contain{
+	width:95%;
+	margin:auto;
+}	 
+.logintext{
+	
+	width:45%;
+	float:left;
+}
+
+.logintext h2:hover{
+	color:gray;
+}
+
+.login-area{
+	width:55%;
+	overflow:hidden;	
+}
+.username-area:hover{
+	color:gray;
+}
+
+.login-area form{
+	float:right;
+}
+
+.login-area label,
+.login-area input{
+	display:block;
+	font-size:12px
+}	
+
+.login-area input[type="checkbox"]{
+	float:left;
+	margin-left:0;
+}
+
+.login-area .username-area{
+	float:left;
+	margin-right:10px
+
+}
+.login-area .password-area{
+	float:left;
+	overflow:hidden;
+	margin-right:10px;
+}
+.password-area:hover{
+	color:gray;
+}
+
+.login-area .submit-area{
+	overflow:hidden;
+}
+
+.login-area a{
+	color:white;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.username-area .submit-area{
+	margin:3px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:2px;
+	color:white;
+}
+
+.login-area a:hover{
+	color:gray;
+} 
+
+.submit-area input{
+	background-color:black;
+	cursor:pointer;
+	color:white;
+	margin-top:14px;
+	font-size:13px;
+}
+.singin-body{
+	float:right;
+	margin-right:2%;
+	margin-top:10%;
+	background-color: rgba(0,0,0,0.7);
+
+}
+.signin{
+	overflow:hidden;
+	
+}
+.signin h1{
+	text-align:center;
+}
+
+.signin hr{
+	border:1px solid white;
+}
+
+.firstlast{
+	overflow:hidden;
+	display:block;
+	
+}
+.firstlast input{
+	margin-top:20px;
+	width:220px;
+	height:25px;
+}
+
+.user input{
+	display:block;
+	margin-top:20px;
+	width:220px;
+	height:25px;
+}
+
+.email input{
+	display:block;
+	margin-top:20px;
+	width:220px;
+	height:25px;
+}
+
+.signup input{
+	display:block;
+	margin-top:20px;
+	height:25px;
+	width:70px;
+	cursor:pointer;
+	
+}
+
+@media all and (max-width:768px){
+	.logintext{
+		width:100%;
+		display:block;
+	}
+	
+	.login-area .username-area{
+		display:block;
+	}
+	
+	.login-area .password-area{
+		display:block;
+	}
+	.username-area .submit-area{
+		display:block;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
