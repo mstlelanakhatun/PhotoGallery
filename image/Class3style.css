@@ -1,0 +1,23 @@
+h1{
+    text-shadow: 2px 4px 4px rgb(184,74,74);
+}
+
+p{  
+    font-family: 'Antonio', sans-serif;
+    border: 1px solid  black;
+    padding: 12px;
+    color: blue;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    line-height: 25px;
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 25px;
+    font: italic small-caps bold 12px/30px Georgia, serif ;
+
+}
+p.span{
+    color: chocolate;
+    font-size: 25px;
+}
