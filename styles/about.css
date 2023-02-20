@@ -1,0 +1,38 @@
+body{
+    background-image: url('../image/pic6.jpg');
+	
+    color: white;
+    width: 100%;
+	} 
+
+.first-top:hover{
+	color:#86a0ba;
+}
+.second-top {
+    text-align: center;
+	float:center;
+	overflow:hidden;
+	width:45%;
+	height:95px;
+	margin-right:4%;
+	padding-top:40px;
+}
+
+.second-top ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left:50px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+.second-top ul li:hover{
+	background-color:gray;
+	overflow:none;
+}
+
+.second-top ul li a{
+	text-decoration:none;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	font-weight: bold;
+}

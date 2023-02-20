@@ -2,7 +2,7 @@ body{
 	margin:none;
 	padding:none;
 	width:100%;
-	background-image: url('image/bg/bgimage.jfif');
+	background-image: url('../image/bg/bgimage.jfif');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -67,7 +67,6 @@ body{
 	padding:10px;
 	overflow:hidden;
 	margin-left:
-	
 }
 
 .gallery img:hover{
